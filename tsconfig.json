@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "preserve",
+
+    "rootDir": "./client",
+
+    "paths": {
+      "@/*": ["./client"],
+      "@components/*": ["./client/components/*"],
+      "@pages/*": ["./client/pages/*"],
+      "@utils/*": ["./client/utils/*"]
+    },
+
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "allowJs": true,
+    "types": ["vite/client"],
+    "useDefineForClassFields": true,
+    "isolatedModules": true,
+
+    "sourceMap": true
+  },
+
+  "include": ["client/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
