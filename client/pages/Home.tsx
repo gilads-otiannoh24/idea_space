@@ -121,7 +121,7 @@ export default function Home() {
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-linear-to-r from-cyan-400 via-magenta-400 to-orange-400 mb-2">
-            Engineering Ideas Lab
+            IdeaSpace
           </h1>
           <p className="text-slate-400 text-lg">
             Capture, organize, and develop your innovative project concepts
